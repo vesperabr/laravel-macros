@@ -37,8 +37,7 @@
         "test": "vendor/bin/phpunit"
     },
     "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true
+        "sort-packages": true
     },
     "extra": {
         "laravel": {
@@ -46,7 +45,5 @@
                 "Vespera\\LaravelMacros\\Support\\ServiceProvider"
             ]
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
