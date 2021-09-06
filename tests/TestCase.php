@@ -9,7 +9,7 @@ abstract class TestCase extends BaseTestCase
     protected function getPackageProviders($app)
     {
         return [
-            'Vespera\LaravelMacros\Support\SeviceProvider',
+            'Vespera\LaravelMacros\Support\ServiceProvider',
         ];
     }
 }
