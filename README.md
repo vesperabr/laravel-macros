@@ -2,7 +2,7 @@
 
 The `vesperabr/laravel-macros` package add a set of useful macros to your Laravel app.
 
-## Instalation
+## Installation
 
 You can install the package via composer:
 
