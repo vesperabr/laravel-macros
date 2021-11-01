@@ -24,6 +24,16 @@ use Illuminate\Support\Str;
 Str::dot('users[email]'); // users.email
 ```
 
+### `Str::initials()`
+
+The `Str::initials()` method return the initials from a given string. The first parameter is the string and the second is the character limit.
+
+```php
+use Illuminate\Support\Str;
+
+Str::initials('Brenda Astin Zaion', 3); // BAZ
+```
+
 ## Testing
 ```bash
 $ composer test
